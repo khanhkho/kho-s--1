@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> DINH MINH KHANH</title>
+
+    <link rel="stylesheet" href="1.css">
+    <script src="1.js"></script>
+</head>
+<body>
+    <div class="all">
+        <h1>FORM  ĐĂNG KÍ J J ĐẤY</h1>
+        <form action="" onsubmit="return Check()">
+            <div class="inp">
+                <label for="email">Email :</label>
+                <input type="email" value="" placeholder="XYZ@Email.com" name="email" id="email">  
+                <span id="erro"></span>
+            </div>
+            <div class="pas">
+                <label for="email">Mật khẩu :</label>
+                <input type="password"  id="pass" >
+                <span id="erro3"></span>
+            </div>  
+            <div class="repas">
+                <label for="email">Nhập lại :</label>
+                <input type="password" id="repass" >
+                <span id="erro4"></span>
+            </div>  
+            <div class="sdt">
+                <label for="email">Số điện thoại :</label>
+                <input type="number" placeholder="SĐT 098 ******** 33" id="phone" >
+                <span id="erro1"></span>
+            </div>
+            <div class="date">
+                <label for="email">Ngày sinh :</label>
+                <input type="date" placeholder="Ngày sinh" id="date" >
+                <span id="erro2"></span>
+            </div>
+           
+           
+                        
+            <input type="submit" value="Đăng kí" onclick="Check()" class="but">
+
+            <!--<div class="reset">
+               <input type="reset" value="resert">
+            </div>  --> 
+        </form>
+    </div>
+</body>
+</html>
